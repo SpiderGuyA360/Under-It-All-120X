@@ -13,6 +13,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item ABYSSAL_INGOT = registerItem("abyssal_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item RAW_ABYSSAL_INGOT = registerItem("raw_abyssal_ingot",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
@@ -20,6 +22,7 @@ public class ModItems {
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(ABYSSAL_INGOT);
+        entries.add(RAW_ABYSSAL_INGOT);
     }
 
     public static void registerModItems() {
