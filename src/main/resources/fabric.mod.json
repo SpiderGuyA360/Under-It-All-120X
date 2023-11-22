@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-course",
+	"version": "${version}",
+	"name": "Under It All",
+	"description": "This is a mod that allows you to explore the depths below...",
+	"authors": [
+		"SpiderGuyA360"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mc-course/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aadi.mccourse.MCCourseMod"
+		],
+		"fabric-datagen": [
+			"net.aadi.mccourse.MCCourseModDataGenerator"
+		],
+		"client": [
+			"net.aadi.mccourse.MCCourseModClient"
+		]
+	},
+	"mixins": [
+		"mc-course.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
