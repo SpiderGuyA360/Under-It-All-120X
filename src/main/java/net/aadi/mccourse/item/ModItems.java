@@ -28,6 +28,8 @@ public class ModItems {
         entries.add(RAW_ABYSSAL_INGOT);
 
         entries.add(ModBlocks.ABYSSAL_BLOCK);
+        entries.add(ModBlocks.RAW_ABYSSAL_BLOCK);
+
     }
 
     public static void registerModItems() {

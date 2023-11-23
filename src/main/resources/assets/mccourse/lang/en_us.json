@@ -2,5 +2,6 @@
   "item.mccourse.abyssal_ingot": "Abysteel Ingot",
   "item.mccourse.raw_abyssal_ingot": "Raw Abysteel Ingot",
 
-  "block.mccourse.abyssal_block": "Block of Abysteel"
+  "block.mccourse.abyssal_block": "Block of Abysteel",
+  "block.mccourse.raw_abyssal_block": "Raw Block of Abysteel"
 }

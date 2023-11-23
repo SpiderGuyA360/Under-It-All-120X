@@ -16,6 +16,8 @@ public class ModBlocks {
 
     public static final Block ABYSSAL_BLOCK = registerBlock("abyssal_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RAW_ABYSSAL_BLOCK = registerBlock("raw_abyssal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
