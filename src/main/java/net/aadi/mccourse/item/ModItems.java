@@ -1,6 +1,7 @@
 package net.aadi.mccourse.item;
 
 import net.aadi.mccourse.MCCourseMod;
+import net.aadi.mccourse.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,6 +24,8 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(ABYSSAL_INGOT);
         entries.add(RAW_ABYSSAL_INGOT);
+
+        entries.add(ModBlocks.ABYSSAL_BLOCK);
     }
 
     public static void registerModItems() {
