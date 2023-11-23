@@ -11,6 +11,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static net.aadi.mccourse.block.ModBlocks.*;
+
 public class ModItems {
     public static final Item ABYSSAL_INGOT = registerItem("abyssal_ingot",
             new Item(new FabricItemSettings()));

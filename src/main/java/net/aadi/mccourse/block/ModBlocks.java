@@ -11,7 +11,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+
 public class ModBlocks {
+
     public static final Block ABYSSAL_BLOCK = registerBlock("abyssal_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
@@ -26,6 +28,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        MCCourseMod.LOGGER.info("Regitstering Mod Blocks for " + MCCourseMod.MOD_ID);
+        MCCourseMod.LOGGER.info("Registering Modblocks for " + MCCourseMod.MOD_ID);
     }
 }
